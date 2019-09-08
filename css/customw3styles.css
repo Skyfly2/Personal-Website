@@ -1,4 +1,4 @@
-﻿/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
+/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -47,6 +47,22 @@ font-family: 'Lato', sans-serif;
 font-size:26px;
 }
 
+.border{
+border:8px solid #021a40;
+}
+
+.marginback{
+background-color: #CCC;
+}
+
+.modelright{
+margin-right:0%;
+}
+
+.sep{
+border-bottom: 1px solid #CCC;
+}
+
 p{
 font-family: 'Muli', sans-serif;
 }
@@ -57,6 +73,7 @@ bottom:20;
 
 
 }
+
 
 .font-50{
 font-size: 50px;
