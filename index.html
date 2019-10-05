@@ -5,29 +5,46 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Muli&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/customw3styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
+    <script src = "js/scripts.js"></script>
 
     <head>
       <title>Asher Hamrick</title>
     </head>
     <body>
 
-      <div class="row">
-        <div class="w3-bar w3-deep-purple w3-wide w3-padding w3-card">
-          <a href="index.html" class="w3-bar-item w3-button"><img src="images/transparent-logo.png" width=85px/></a>
-    <!-- Float links to the right. Hide them on small screens -->
-            <div class="w3-right" id="nav" >
-              <a href="index.html" class="w3-bar-item w3-button navbuttons button-active">Home</a>
-              <a href="pages/software.html" class="w3-bar-item w3-button navbuttons">Software</a>
-              <a href="pages/animations.html" class="w3-bar-item w3-button navbuttons">Animations</a>
-              <a href="pages/models.html" class="w3-bar-item w3-button navbuttons">3D Modeling</a>
-              <a href="pages/about.html" class="w3-bar-item w3-button navbuttons">About Me</a>
-            </div>
-        </div>
-      </div>
-      <br>
+
+      	<nav class="navbar navbar-expand-lg navbar-light w3-deep-purple" style="height: 85px;">
+  <a class="navbar-brand mt-auto" style="font-family: 'Manjari', sans-serif; font-size: 42px; color: white;" href="index.html"><img src="images/transparent-logo.png" width=85px></a>
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#responsivenav" aria-controls="responsivenav" aria-expanded="false" aria-label="Toggle navigation" onclick="document.getElementById('content').style.paddingTop = getElementById('content').style.paddingTop === '250px' ? '0px' : '250px'">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="responsivenav">
+    
+    <ul class="navbar-nav mt-2 ml-auto mt-lg-0">
+      <li class="nav-item active">
+        <a align="right" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a align="right" class="nav-link" href="pages/software.html">Software</a>
+      </li>
+      <li class="nav-item">
+        <a align="right" class="nav-link" href="pages/animations.html">Animations</a>
+      </li>
+      <li class="nav-item">
+        <a align="right" class="nav-link" href="pages/models.html">3D Modeling</a>
+      </li>
+      <li class="nav-item">
+        <a align="right" class="nav-link" href="pages/about.html">About Me</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
       
+      <div id = content>
       <div class="row">
       <div class="col-12">
         <center>
@@ -65,10 +82,14 @@
       </div>
     </div>
 
-    <script src = "js/scripts.js"></script>
+
+    
   </footer>
-        
-      
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->      
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 
     </html>
